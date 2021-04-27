@@ -4,10 +4,10 @@ let n = 6;
 
 while (i <= n) {
     if (i % 2 == 0) {
-        document.body.innerHTML += `<img src="leaf.png" id="slika1">`;
+        document.body.innerHTML += `<img src="leaf.png" class="slika1">`;
     }
     else {
-        document.body.innerHTML += `<img src="leaf.png" id="slika2">`;
+        document.body.innerHTML += `<img src="leaf.png" class="slika2">`;
     }
     i++
 }
