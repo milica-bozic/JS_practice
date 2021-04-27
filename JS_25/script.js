@@ -1,4 +1,4 @@
-// Ubaciti n paragrafa i svaki treći paragraf obojiti različitom bojom.
+// Kreirati n paragrafa sa proizvoljnim tekstom i naizmenično ih obojiti u tri različite boje
 
 let i = 1;
 let n = 100;
