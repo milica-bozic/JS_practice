@@ -1,0 +1,12 @@
+img {
+    width: 50px;
+    height: 60px;
+}
+
+.slika1 {
+    border: 2px solid red;
+}
+
+.slika2 {
+    border: 5px dotted purple;
+}
