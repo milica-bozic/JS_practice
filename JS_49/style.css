@@ -1,0 +1,18 @@
+td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+
+.boja1 {
+    background-color: red;
+}
+
+.boja2 {
+    background-color: rosybrown;
+}
+
+.lila {
+    color:rgb(185, 74, 189);
+}
