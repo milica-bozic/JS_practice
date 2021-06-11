@@ -12,7 +12,13 @@ export class Film {
         this._reziser = x;
     }
     set godIzdanja(x) {
-        this._godinaIzdanja = x;
+        let godina = 1800;
+        if (x > godina) {
+            this._godinaIzdanja = x;
+        }
+        else {
+            this._godIzdanja = godina;
+        }
     }
     set ocene(x) {
         this._ocene = x;
