@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 5px; /*Ovde da obratim paznju */
+    box-sizing: border-box;
+    font-family: Bradley Hand, cursive;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+/* Za mobilne uredjaje */
+@media only screen and (max-width: 450px) {  /*450px*/
+    [class*="col-"]{
+        width: 100%;
+    }
+}
+
+/*Tablet uredjaji:*/
+@media only screen and (min-width: 451px) and (max-width: 800px) {
+    .col-t-1 {
+        width: 8.33%;
+    }
+    
+    .col-t-2 {
+        width: 16.66%;
+    }
+    
+    .col-t-3 {
+        width: 25%;
+    }
+    
+    .col-t-4 {
+        width: 33.33%;
+    }
+    
+    .col-t-5 {
+        width: 41.66%;
+    }
+    
+    .col-t-6 {
+        width: 50%;
+    }
+    
+    .col-t-7 {
+        width: 58.33%;
+    }
+    
+    .col-t-8 {
+        width: 66.33%;
+    }
+    
+    .col-t-9 {
+        width: 75%;
+    }
+    
+    .col-t-10 {
+        width: 83.33%;
+    }
+    
+    .col-t-11 {
+        width: 91.66%;
+    }
+
+    .col-t-12 {
+        width: 100%;
+    }
+}
+
+/*Za desktop uredjaje:*/
+@media only screen and (min-width: 801px) {
+    .col-1 {
+        width: 8.33%;
+    }
+    
+    .col-2 {
+        width: 16.66%;
+    }
+    
+    .col-3 {
+        width: 25%;
+    }
+    
+    .col-4 {
+        width: 33.33%;
+    }
+    
+    .col-5 {
+        width: 41.66%;
+    }
+    
+    .col-6 {
+        width: 50%;
+    }
+    
+    .col-7 {
+        width: 58.33%;
+    }
+    
+    .col-8 {
+        width: 66.33%;
+    }
+    
+    .col-9 {
+        width: 75%;
+    }
+    
+    .col-10 {
+        width: 83.33%;
+    }
+    
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(270deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+div {
+    text-align: center;
+}
+
+.btn {
+    font-size: larger;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(191, 171, 209);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    border: 1px solid rgb(232, 213, 235);
+}
+
+.btn:hover {
+    background-color: rgb(187, 245, 247);
+    text-shadow: 2px 2px 5px red;
+}
+
+.btn-active {
+    background-color: rgb(187, 245, 247);
+    text-shadow: 2px 2px 5px red;
+}
+
+input {
+    border: 1px solid white;
+    width: 300px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+h1, h3 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+footer {
+    position: relative;
+}
+
+.notification {
+    position: absolute;
+    left: 1rem;
+    top: 41%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    min-width: 200px;
+    text-align: left;
+}
+
+#usernameNotification {
+    display: none;
+}
+
+.username {
+    color: rgb(148, 81, 211);
+}
+
+.chat {
+    float: left;
+    width: 100%;
+}
+
+.time {
+    color: rgb(194, 119, 134);
+}
+
+.messageCloud {
+    list-style-type: none;
+}
+
+.sent {
+    width: 50%;
+    background-color: rgb(198, 180, 207);
+    float: right;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 1rem 0 1rem 1rem;
+    box-shadow: 2px 2px 5px rgb(177, 172, 172);
+    margin: 5px;
+    padding: 5px;
+    color: rgb(128, 61, 81);
+}
+
+.received {
+    width: 50%;
+    background-color: rgb(174, 212, 212);
+    float: left;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0 1rem 1rem 1rem;
+    box-shadow: 2px 2px 5px rgb(177, 172, 172);
+    margin: 5px;
+    padding: 5px;
+    color: rgb(128, 61, 81);
+}
